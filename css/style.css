@@ -600,6 +600,16 @@ p {
     padding-bottom: 23px;
     padding-top: 16px;
 }
+.banner-txt h1{
+    font-size: 38px;
+    font-family: pb;
+    color: #ffffff;
+    line-height: 55px;
+    padding-bottom: 23px;
+    padding-top: 16px;
+    word-wrap: break-word; /* Ensure long words break to fit the container */
+    word-break: break-all; /* Break long words if necessary */
+}
 
 .banner-txt p {
     font-size: 17px;
